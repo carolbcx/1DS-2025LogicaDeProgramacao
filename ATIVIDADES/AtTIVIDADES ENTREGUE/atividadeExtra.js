@@ -52,14 +52,16 @@ Saída: 1, 3, 5, 8, 9
 
 
 */
-// ATIVIDADE 05
-var numeros = [3, 5, 1, 8, 6, 2];
-console.table(numeros);
 
-numeros.sort();
-console.table(numeros);
+//ATIVIDADE 01
+const imparpar = (num) =>{
+  return num % 2 == 0 ? "o numero é par" : "o numero é impar!";
+  };
+  console.log(imparpar(10));
+  console.log(imparpar(3));
+  console.log(imparpar(2));
 
-//2. tabuada
+// ATIVIDADE 02. tabuada
 var tabuada = 6;
 console.log(tabuada, "x 1 = ", tabuada * 1);
 console.log(tabuada, "x 2 = ", tabuada * 2);
@@ -72,7 +74,7 @@ console.log(tabuada, "x 8 = ", tabuada * 8);
 console.log(tabuada, "x 9 = ", tabuada * 9);
 console.log(tabuada, "x 10 = ", tabuada * 10);
 
-//3. fatorial de um numero
+//ATIVIDADE 03. fatorial de um numero
 console.log("farorial de 5 =!", 5 * 4 * 3 * 2 * 1);
 
 console.log("----------atividade4------------");
@@ -81,3 +83,15 @@ function somar(val1, val2, val3) {
   return val1 + val2 + val3;
 }
 console.log("10 + 15 + 20 =", somar(10, 15, 20));
+
+//ATIVIDADE 04
+var numeros = [10, 20, 30, 40];
+var soma = numeros[0] + numeros[1] + numeros[2] + numeros[3]  
+console.log(soma);
+
+// ATIVIDADE 05
+var numeros = [3, 5, 1, 8, 6, 2];
+console.table(numeros);
+
+numeros.sort();
+console.table(numeros);
