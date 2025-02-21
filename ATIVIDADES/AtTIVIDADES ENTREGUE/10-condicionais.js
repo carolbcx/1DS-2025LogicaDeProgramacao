@@ -103,3 +103,68 @@ console.log("preco: R$", preco, "-", resultado);
 var logado = true;
 logado && console.log("usoario esta logado");
 
+
+
+//Desvio condicional - switch case
+console.log("----------Switch Case----------")
+switch (1) {
+  case 1:
+    console.log("o usuario digitou o numero 1!");
+    break;
+
+  default:
+    console.log("o usuario informou um numero diferente de 1!");
+    break;
+};
+console.log("--------------------------------")
+//Menu de seleção
+var menuSelecionado = "Home"
+switch (menuSelecionado) {
+  case "Home":
+    console.log("voce clicou no link 'home'");
+    break;
+
+    case "quem somos":
+    console.log("voce clicou no link 'que somos'");
+    break;
+
+  default:
+    console.log("opçao invalida de meu");
+    break;
+}
+
+
+//Varias opções com mesmo case - switch case
+var mes = 11;
+
+switch (mes) {
+  case 1:
+    case 2:
+      case 3:
+    console.log("primeiro trimestre!");
+    break;
+
+    case 4:
+      case 5:
+        case 6:
+          console.log("segundo trimestre!");
+          break;
+
+          case 7:
+            case 8:
+              case 9:
+                console.log("terceiro trimestre!");
+                break;
+
+                case 10:
+                  case 11:
+                    case 12:
+                      console.log("quarto trimestre!");
+                      break;
+};
+
+
+
+
+
+
