@@ -62,13 +62,17 @@ console.table(matriz);
 // Faça um loop FOR onde apresente os números ímpares de 0 a 100;
 // Não pode ser resolvido com conta ou resto de divisão
 
-for (let i = 1; i <= 100; i++2) {
- console.log(i);
-}
-console.log("numeros pares de 0 a 100");
+console.log("Numeros impares de 0 a 100");
 for (let i = 0; i <= 100; i += 2) {
   console.log(i);
 }
+console.log("Numeros pares de 0 a 100");
+for (let i = 0; i <= 100; i += 2) {
+    console.log(i);
+}
+
+console.table(matriz);
+
 
   
   
