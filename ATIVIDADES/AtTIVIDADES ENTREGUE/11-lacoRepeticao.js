@@ -62,3 +62,4 @@ for (let linha = 0; linha < matriz.length; linha++) {
 }
 console.log("matriz[linha 0 coluna 0]=", matriz[0][0]);
 
+// Laço Repetição - while / do while
